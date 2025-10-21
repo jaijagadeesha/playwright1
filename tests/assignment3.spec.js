@@ -12,6 +12,11 @@ test('Test to check the assignment', async ({ page }) => {
     console.log(cityName);
     if (cityName.includes("Boston")) {
       await fromCityOptions.nth(i).click();
+
+
+
+
+      
       break;
     }
   }
